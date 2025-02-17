@@ -1,0 +1,73 @@
+/* Background image */
+.stApp {
+    background: url('https://i.pinimg.com/originals/ca/4d/23/ca4d2391455ade48053c0b6861842574.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white !important;
+}
+
+/* Change text color for st.subheader() */
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+section[data-testid="stSidebar"] {
+    color: black !important;
+}
+
+section[data-testid="stSidebar"] h2 {
+    color: black !important;
+}
+
+section[data-testid="stSidebar"] h3 {
+    color: black !important;
+}
+
+/* Custom title styling */
+h1 {
+    color: white !important;
+    text-align: left;
+    font-size: 4ch;
+    font-weight: bold;
+}
+
+.stSidebar h1, .stSidebar .css-1d391kg {
+    color: black !important;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    background-color: white;
+}
+
+.stSidebar {
+    background-color: #89CFF0;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: #6C3483 !important; /* Purple shade */
+    color: white !important;
+    border-radius: 5px !important;
+    padding: 10px 15px !important;
+    transition: 0.3s ease-in-out;
+}
+
+.stButton > button:hover {
+    background-color: #4A235A !important; /* Darker shade on hover */
+}
+
+header[data-testid="stHeader"] {
+    background-color: #002D62 !important; /* Dark Purple */
+    color: white !important;
+    padding: 10px;
+}
+
+p {
+    color:black;
+}
